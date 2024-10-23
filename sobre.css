@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 100%;
+    height: auto;
+    background: rgb(0, 0, 0);
+}
+header{
+    width: 100%;
+    height: 50px;
+    background: rgb(13, 12, 12);
+    position: absolute;
+    top: 0px;
+    z-index: 2;
+    border-bottom: 2px solid white;
+}
+ul{
+   text-align:center;
+   margin-top: 15px; 
+}
+a{
+    color: rgb(236, 230, 226);
+    padding: 10px 20px 10px 20px;
+    margin-top: 15px;
+    text-decoration: none;
+    font-family: "Rubik", sans-serif;
+}
+a:hover{
+    transform: scale(2,2);
+    border:1px solid rgb(250, 240, 240) ;
+    font-size: 20px;
+    border-radius: 10px;
+}
+aside{
+    position: absolute;
+    width: 100%;
+    height: 90vh;
+    background-image:url(6PCRZtVAWXQg9RAp8WXKbc.jpg);
+}
+#dentro{
+    position: absolute;
+    width: 100%;
+    height: 90vh;
+    padding: 50px;
+}
+#foto{
+    padding: 50px;
+ 
+    width: 40%;
+    max-height: 60vh;
+    float: left;
+}
+.foto{
+    background-size:cover;
+    width: 60%;
+    max-height: 10%;
+    opacity: 1;
+    border-radius: 15%;
+    object-fit: cover;
+    border: 10px solid black;
+    box-shadow: 0px 0px 5px white;
+}
+#texto{
+    padding: 50px;
+    margin-top: 50px;
+    margin-left: -200px;
+    background: rgb(0, 0, 0);
+    padding: 50px;
+    height: 50vh;
+    width: 40%;
+    border-radius: 2%;
+    float: left;
+    color: rgb(255, 255, 255);
+}
